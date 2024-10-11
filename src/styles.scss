@@ -1,1 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
+/* Sortable Grid */
+.k-cell-inner > .k-link {
+  justify-content: flex-end;
+}
+
+/* Non-Sortable Grid */
+.k-grid th {
+  justify-content: right;
+}
+.form-group {
+  margin-bottom: 1rem;
+}
+.k-input {
+  width: 100%;
+}
